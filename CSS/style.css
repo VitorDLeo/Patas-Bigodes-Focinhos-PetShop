@@ -18,3 +18,13 @@
     right: 90%;
 }
 
+li{
+    list-style-image: none;
+}
+
+
+#mapa{
+    height: 400px;
+    width: 100%;
+}
+
