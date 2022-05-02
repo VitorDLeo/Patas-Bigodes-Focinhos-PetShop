@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+    background-image: linear-gradient(to right, white, #ddddf3,#d1d2f5 , #b7b8e7, #a6a7e4, #9fa0e2, #7778B0, #6b6cb8, #585ab4);
+}
+
+#logo {
+    width: 250px;
+    height: 250px;
+}
+
+.menu{
+    display: inline-block;
+    right: 90%;
+}
+
