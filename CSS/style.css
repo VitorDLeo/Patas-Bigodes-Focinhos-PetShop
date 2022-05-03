@@ -6,6 +6,9 @@
 
 #header{
     background-image: linear-gradient(to right, white, #ddddf3,#d1d2f5 , #b7b8e7, #a6a7e4, #9fa0e2, #7778B0, #6b6cb8, #585ab4);
+
+    width: 100%;
+    height: 500px;
 }
 
 #logo {
@@ -13,15 +16,11 @@
     height: 250px;
 }
 
-.menu{
+nav ul li a{
     display: inline-block;
-    right: 90%;
+    text-decoration: none;
+    font-size: 22px;
 }
-
-li{
-    list-style-image: none;
-}
-
 
 #mapa{
     height: 400px;
