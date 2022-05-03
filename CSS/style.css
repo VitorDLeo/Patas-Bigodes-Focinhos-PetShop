@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    
+    font-family: 'Dancing Script', cursive;
 }
 
 #header{
+    /*
     background-image: linear-gradient(to right, white, #ddddf3,#d1d2f5 , #b7b8e7, #a6a7e4, #9fa0e2, #7778B0, #6b6cb8, #585ab4);
+    */
 
+    background-color: #a6a7e4;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+header > p{
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+nav{
+    text-align: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 40px;
 }
 
 #logo {
@@ -16,10 +45,8 @@
     height: 250px;
 }
 
-nav ul li a{
-    display: inline-block;
-    text-decoration: none;
-    font-size: 22px;
+nav{
+    text-align: top left;
 }
 
 #mapa{
