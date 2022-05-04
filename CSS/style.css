@@ -18,14 +18,33 @@
 
 #barra{
     background-color: white;
-    height: 150px;
+    height: 100px;
 }
 
 #barra > img{
-    height: 100px;
+    height: 80px;
     width: 100px;
     margin-left: 20px;
     margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 12px;
+}
+
+nav{
+    text-align: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 60px;
+    right: 20px;
 }
 
 header > h1{
@@ -40,27 +59,9 @@ header > p{
     font-size: 25px;
 }
 
-nav{
-    text-align: right;
-    padding: 10px;
-    margin-right: 20px;
-}
-
-nav > a{
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-}
-
 #logo {
     width: 250px;
     height: 250px;
-}
-
-nav{
-    text-align: top left;
 }
 
 #mapa{
