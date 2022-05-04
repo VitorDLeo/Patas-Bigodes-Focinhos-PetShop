@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Dancing Script', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #header{
@@ -11,9 +11,21 @@
     background-image: linear-gradient(to right, white, #ddddf3,#d1d2f5 , #b7b8e7, #a6a7e4, #9fa0e2, #7778B0, #6b6cb8, #585ab4);
     */
 
-    background-color: #a6a7e4;
+    background-color: #7072cf;
     width: 100%;
     min-height: 500px;
+}
+
+#barra{
+    background-color: white;
+    height: 150px;
+}
+
+#barra > img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 header > h1{
@@ -38,6 +50,8 @@ nav > a{
     text-decoration: none;
     font-size: 30px;
     margin-right: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 #logo {
